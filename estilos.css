@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    width: 10rem;
+}
+#nav {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+
+}
+#menuhamb {
+    padding: 1rem;
+    color: white;
+    background-color: rgb(247, 5, 126);
+}
+#menu {
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 7rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    font-family: 'Ramabhadra', sans-serif;
+    color: white;
+    -webkit-text-stroke: 0.6px rgb(247, 5, 126);
+}
+#detailsboton {
+    padding: 0.1rem;
+    margin: 0.5rem;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Ramabhadra', sans-serif;
+    color: rgb(34, 33, 34);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid rgb(247, 5, 126);
+}
+#card {
+    width: 20rem;
+    margin: 1rem;
+}
+#cardimg {
+    width: 19.9rem;
+    height: 13rem;
+}
+footer {
+    background-color: rgb(247, 5, 126);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: start;
+}
+#foter {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+}
+#cohort {
+    width: 15rem;
+    font-size: 1rem;
+    font-family: 'Ramabhadra', sans-serif;
+    color: rgb(34, 33, 34);
+}
+#redes {
+    width: 20rem;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
+}
+#tarjetas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    align-content: space-around;
+    background-color: rgba(131, 6, 69, 0.847);
+}
+#botoncito {
+    display: flex;
+    justify-content: flex-end;
+}
+#barramovil {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(34, 33, 34, 0.43);
+}
+.flechas {
+    width: 3rem;
+    height: 3rem;
+    background-color: rgba(247, 5, 126, 0.605);
+    border: none;
+    border-radius: 100%;
+}
+#checkbox {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-around;
+    align-content: center;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(247, 5, 126);
+}
+#checkandsearch {
+    width: 100%;
+    background-color: rgb(34, 33, 34);
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 1rem;
+    color: rgb(247, 5, 126);
+}
+#divform {
+    width: 100%;
+    height: 50rem;
+    padding: 2rem;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(131, 6, 69, 0.847);
+}
+#sectionform {
+    padding: 2rem;
+    background-color: rgba(34, 33, 34, 0.773);
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 1.3rem;
+    color: rgb(247, 5, 126);
+}
+form {
+    width: 40rem;
+    height: 30rem;
+    background-color: rgba(34, 33, 34, 0.593);
+}
+#botonform {
+    margin: 1rem;
+    padding: 2rem;
+    background-color: rgba(34, 33, 34, 0.773);
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 1rem;
+    color: rgb(247, 5, 126);
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: none;
+}
+#details {
+    width: 100%;
+    height: 55rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: rgba(131, 6, 69, 0.847);
+}
+#contdetails {
+    width: 100%;
+    height: 50rem;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+}
+#imgdetails {
+    width: 40rem;
+    height: 25rem;
+    display: flex;
+}
+#txtdetails {
+    width: 40rem;
+    height: 25rem;
+    background-color: rgb(34, 33, 34);
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 1rem;
+    color: rgb(247, 5, 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#divtable{
+    width: 100%;
+    padding: 2rem;
+    height: 55rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: rgba(131, 6, 69, 0.847);
+}
+
+#table{
+    width: 80rem;
+    height: 30rem;
+    background-color: rgb(34, 33, 34);
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 1rem;
+    color: rgb(248, 247, 248);
+    border: 4px solid rgb(247, 5, 126);
+    text-align: center;
+    
+}
+table td {
+    border: 4px solid rgb(247, 5, 126);
+}
+
+#titulotabla{
+    width: 80rem;
+    height: 2rem;
+}
+@media (min-width:320px) and (max-width:1024px) {
+    #checkbox {
+        width: 100%;
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-items: center;
+        justify-content: flex-start;
+        font-family: 'Ramabhadra', sans-serif;
+        font-size: 1.5rem;
+        color: rgb(247, 5, 126);
+    }
+    #checkandsearch {
+        width: 100%;
+        padding: 1rem;
+        background-color: rgb(34, 33, 34);
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: flex-start;
+        align-items: center;
+        font-family: 'Ramabhadra', sans-serif;
+        font-size: 1rem;
+        color: rgb(247, 5, 126);
+    }
+}
+@media (min-width:1920px) {
+    #tarjetas {
+        height: 50rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        justify-items: center;
+        align-content: space-around;
+        background-color: rgba(131, 6, 69, 0.847);
+    }
+    #card {
+        width: 15rem;
+        height: 30rem;
+        margin: 0.5rem;
+    }
+    #cardimg {
+        width: 14.9rem;
+        height: 8rem;
+    }
+}
