@@ -89,6 +89,16 @@ footer {
     align-content: flex-start;
     align-items: center;
 }
+#seccionTarjetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    align-content: space-around;
+    background-color: rgba(131, 6, 69, 0.847);
+}
 #tarjetas {
     display: flex;
     flex-direction: row;
